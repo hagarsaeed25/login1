@@ -51,11 +51,11 @@
         flex-wrap: wrap;
         height: calc(100vh - 92px);
       }
-      @media (max-width: 767px) {
+     @media (max-width: 767px) {
         section .container {
           justify-content: center;
         }
-      }
+      } 
       .info h1 {
         font-size: 50px;
         font-weight: bold;
