@@ -43,3 +43,16 @@
         font-weight: bold;
         color: var(--black);
       }
+     section .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+        flex-wrap: wrap;
+        height: calc(100vh - 92px);
+      }
+      @media (max-width: 767px) {
+        section .container {
+          justify-content: center;
+        }
+      }
